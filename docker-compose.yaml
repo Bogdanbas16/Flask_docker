@@ -1,0 +1,8 @@
+version: 4.15.0
+
+services:
+  helloworld:
+    build:
+      context: ./
+    ports:
+      - 5000:5000
