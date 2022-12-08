@@ -40,4 +40,4 @@ def user(name, id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True) # показує помилк на сторінці які є в коді.
+    app.run(debug=True, host='0.0.0.0') # показує помилк на сторінці які є в коді.
